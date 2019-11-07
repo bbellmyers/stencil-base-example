@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
   <title>Stencil Component Starter</title>
+  <!-- Adding this base tag breaks Stencil hydration in IE11 (and other browsers using baseURI polyfill) -->
   <base target="_parent" />
 
   <script type="module" src="/build/stencil-starter-project-name.esm.js"></script>
